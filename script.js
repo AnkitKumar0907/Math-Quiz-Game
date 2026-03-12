@@ -83,7 +83,7 @@ const checkAnswer = (event) => {
   if (userAnswer === storedAnswer) {
     score += 1;
     Toastify({
-      text: `Your are wrong and your score is ${score}`,
+      text: `Your are correct and your score is ${score}`,
       gravity: "bottom",
       position: "center",
       style: {
